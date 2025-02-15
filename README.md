@@ -9,17 +9,16 @@ This project predicts house prices based on user input using a **Machine Learnin
 
 ## **Setup Instructions**
 ### 1️⃣ **Clone the Repository**
-```bash
 git clone https://github.com/Yesaswi33/Regression_House_price_prediction.git
 cd Regression_House_price_prediction
-2️⃣ Set Up Virtual Environment (Recommended)
+### 2️⃣ Set Up Virtual Environment (Recommended)
 python3 -m venv venv
 source venv/bin/activate  # For MacOS/Linux
-3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 Install the required libraries using:
 
 pip install -r requirements.txt
-4️⃣ Run the Flask Application
+### 4️⃣ Run the Flask Application
 python app.py
 The app will be available at http://127.0.0.1:5000/.
 
