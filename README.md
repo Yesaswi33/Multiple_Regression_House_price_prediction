@@ -8,21 +8,25 @@ This project predicts house prices based on user input using a **Machine Learnin
 
 
 ## **Setup Instructions**
-### 1️⃣ **Clone the Repository**
+1️⃣ **Clone the Repository**
 git clone https://github.com/Yesaswi33/Regression_House_price_prediction.git
 cd Regression_House_price_prediction
-### 2️⃣ Set Up Virtual Environment (Recommended)
+
+2️⃣ Set Up Virtual Environment (Recommended)
 python3 -m venv venv
 source venv/bin/activate  # For MacOS/Linux
-### 3️⃣ Install Dependencies
-Install the required libraries using:
 
+3️⃣ Install Dependencies
+Install the required libraries using:
 pip install -r requirements.txt
-### 4️⃣ Run the Flask Application
+
+
+4️⃣ Run the Flask Application
 python app.py
 The app will be available at http://127.0.0.1:5000/.
 
-How It Works
+
+###How It Works
 
 Train Model (train_model.py)
 Loads Housing.csv
@@ -53,12 +57,18 @@ Future Improvements
 Enhance UI with Bootstrap.
 Add more features to the model (e.g., location, age of property).
 Deploy the model using Heroku or AWS.
-New requirements.txt File
+
+
+
+###requirements.txt File:
 Flask
 numpy
 pandas
 scikit-learn
 pickle-mixin
+
+
+
 Steps to Add These Files to Git
 Run the following commands in your VS Code terminal:
 
